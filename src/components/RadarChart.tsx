@@ -1,8 +1,8 @@
-import { Chart as ChartJS, RadarController, RadarElementsPlugin, PointElement, LineElement, Filler, Legend, Tooltip } from 'chart.js'
+import { Chart as ChartJS, RadarController, RadialLinearScale, PointElement, LineElement, Filler, Legend, Tooltip } from 'chart.js'
 import { Radar } from 'react-chartjs-2'
 import { DimensionScores } from '../utils/calculateMBTI'
 
-ChartJS.register(RadarController, RadarElementsPlugin, PointElement, LineElement, Filler, Legend, Tooltip)
+ChartJS.register(RadarController, RadialLinearScale, PointElement, LineElement, Filler, Legend, Tooltip)
 
 interface RadarChartProps {
   scores: DimensionScores
