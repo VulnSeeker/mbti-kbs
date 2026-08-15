@@ -3,7 +3,7 @@ import { personalityTypes, PersonalityType } from '../data/personalityTypes'
 import { useQuiz } from '../context/QuizContext'
 import { calculateMBTI } from '../utils/calculateMBTI'
 import RadarChart from './RadarChart'
-import { Share2, RotateCcw, Home, Copy, Check } from 'lucide-react'
+import { Share2, RotateCcw, Home, Check } from 'lucide-react'
 
 interface ResultsProps {
   mbtiType: string
